@@ -10,10 +10,10 @@ body{
     background-color: hsl(0, 0%, 8%);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 main{
-    margin: 175px 0px;
     background-color: hsl(0, 0%, 12%);
     width: 384px;
     padding: 39px 40px 40px 40px;
