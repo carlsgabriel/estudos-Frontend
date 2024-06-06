@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter';
+}
+
+body{
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    margin: 175px 0px;
+    background-color: hsl(0, 0%, 12%);
+    width: 384px;
+    padding: 39px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.photo img{
+    display: block;
+    max-width: 100%;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+
+.nameAndLocale{
+    margin-top: 28px;
+}
+
+.nameAndLocale h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.nameAndLocale h3{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 0.88rem;
+    text-align: center;
+    margin-top: 9px;
+    padding: 0px 50px;
+}
+
+.description{
+    margin: 29px 0px 25px 0px;
+}
+
+.description p{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 0.87rem;
+}
+
+.links{
+    margin-top: 1px;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+li:last-child{
+    margin-bottom: 0px;
+}
+
+li a{
+    background-color: hsl(0, 0%, 20%);
+    padding: 14px 0px;
+    display: block;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 0.88rem;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+li a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a{
+    color: hsl(75, 94%, 57%);
+}
+
+@media(max-width:375px){
+    body{
+        align-items: center;
+    }
+    main{
+        width: 320px;
+        padding: 28px
+    }
+    .nameAndLocale h1{
+        font-size: 1.44rem;
+    }
+    .nameAndLocale h3{
+        font-size: 0.85rem;
+    }
+    .description p{
+        font-size: 0.82rem;
+    }
+    .attribution{
+        font-size: 0.8rem;
+    }
+}
