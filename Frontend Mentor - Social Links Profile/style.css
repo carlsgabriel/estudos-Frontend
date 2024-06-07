@@ -2,11 +2,12 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: 'Inter';
 }
 
 body{
-    min-height: 100vh;
+    height: 100vh;
+    font-family: 'Inter';
+    position: relative;
     background-color: hsl(0, 0%, 8%);
     display: flex;
     justify-content: center;
@@ -15,12 +16,14 @@ body{
 
 main{
     background-color: hsl(0, 0%, 12%);
-    width: 384px;
+    width: 100%;
+    max-width: 384px;
     padding: 39px 40px 40px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 12px;
+    margin: 171px 0px;
 }
 
 .photo img{
@@ -108,9 +111,6 @@ li a:hover{
 }
 
 @media(max-width:375px){
-    body{
-        align-items: center;
-    }
     main{
         width: 320px;
         padding: 28px
