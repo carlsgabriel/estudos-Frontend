@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main{
+    max-width: 381px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 8px 8px 1px hsl(0, 0%, 7%);
+    padding: 22px 23px;
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+}
+
+.img img{
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.dataLearning{
+    margin-top: 24px;
+    padding: 6px 12px 6px 12px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    font-weight: 800;
+    text-shadow: 0px 0px 1px hsl(0, 0%, 7%);
+}
+
+.dataPublished{
+    display: inline-block;
+    margin-top: 14px;
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tittle a{
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+    margin-top: 16px;
+    margin-bottom: 17px;
+    font-size: 23.9px;
+    font-weight: 800;
+}
+
+.tittle a:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.tittle p{
+    color: hsl(0, 0%, 50%);
+    font-size: 15.9px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.profile img{
+    display: block;
+    width: 32px;
+    height: auto;
+}
+
+.profile span{
+    display: inline-block;
+    margin-left: 12px;
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    font-weight: 800;
+    padding-bottom: 2px;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media(max-width:375px){
+    main{
+        max-width: 330px;
+    }
+    .tittle h1{
+        font-size: 18px;
+    }
+    .tittle p{
+        line-height: 1.5;
+        font-size: 14px;
+    }
+}
