@@ -8,3 +8,4 @@
 |[Frontend Mentor - Results summary component](https://github.com/carlsgabriel/estudos-Frontend/tree/38ce9d30039846ae70e8a00d5d32076ead8d2304/Frontend%20Mentor%20-%20Results%20summary%20component)| HTML, CSS |
 |[Frontend Mentor - Product preview card component](https://github.com/carlsgabriel/estudos-Frontend/tree/f916426cc87f1b6f16c8d51e7f611f83f0fe5e62/Frontend%20Mentor%20-%20Product%20preview%20card%20component)| HTML, CSS |
 |[Frontend Mentor - QR code component](https://github.com/carlsgabriel/estudos-Frontend/tree/ede9801e66336918bc222783bdbd0f8b346eff5f/Frontend%20Mentor%20-%20QR%20code%20component)| HTML, CSS |
+|[Frontend Mentor - NFT preview card component](https://github.com/carlsgabriel/estudos-Frontend/tree/bf621340623f4bf7632a40b12c80b77b87937281/Frontend%20Mentor%20-%20NFT%20preview%20card%20component)| HTML, CSS |
