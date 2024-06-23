@@ -10,3 +10,4 @@
 |[Frontend Mentor - QR code component](https://github.com/carlsgabriel/estudos-Frontend/tree/ede9801e66336918bc222783bdbd0f8b346eff5f/Frontend%20Mentor%20-%20QR%20code%20component)| HTML, CSS |
 |[Frontend Mentor - NFT preview card component](https://github.com/carlsgabriel/estudos-Frontend/tree/bf621340623f4bf7632a40b12c80b77b87937281/Frontend%20Mentor%20-%20NFT%20preview%20card%20component)| HTML, CSS |
 |[Frontend Mentor - Order summary component](https://github.com/carlsgabriel/estudos-Frontend/tree/8a542a8300c9818c66a69d3ecaca3737ba463aba/Frontend%20Mentor%20-%20Order%20summary%20component)| HTML, CSS |
+|[Frontend Mentor - Stats preview card component](https://github.com/carlsgabriel/estudos-Frontend/tree/250389a19cbb647cca84bfc92d9afcf4f1cabd2b/Frontend%20Mentor%20-%20Stats%20preview%20card%20component)| HTML, CSS |
