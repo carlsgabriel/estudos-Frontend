@@ -11,3 +11,4 @@
 |[Frontend Mentor - NFT preview card component](https://github.com/carlsgabriel/estudos-Frontend/tree/bf621340623f4bf7632a40b12c80b77b87937281/Frontend%20Mentor%20-%20NFT%20preview%20card%20component)| HTML, CSS |
 |[Frontend Mentor - Order summary component](https://github.com/carlsgabriel/estudos-Frontend/tree/8a542a8300c9818c66a69d3ecaca3737ba463aba/Frontend%20Mentor%20-%20Order%20summary%20component)| HTML, CSS |
 |[Frontend Mentor - Stats preview card component](https://github.com/carlsgabriel/estudos-Frontend/tree/250389a19cbb647cca84bfc92d9afcf4f1cabd2b/Frontend%20Mentor%20-%20Stats%20preview%20card%20component)| HTML, CSS |
+|[Frontend Mentor - 3 Column preview card component](https://github.com/carlsgabriel/estudos-Frontend/tree/4e0564a4fbe9e17534b6ade258dc94ad30680a51/Frontend%20Mentor%20-%203%20Column%20preview%20card%20component)| HTML, CSS |
