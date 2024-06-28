@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+main{
+    width: 925px;
+    display: flex;
+}
+
+.main-element{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    flex: 1;
+}
+
+.main-element:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.main-element:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.element-text{
+    margin-top: 30px;
+}
+
+.element-text h2{
+    color: hsl(0, 0%, 95%);
+    font-size: 39px;
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+}
+
+.element-text p{
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+}
+
+.element-buttom{
+    margin-top: 80px;
+}
+
+.element-buttom a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    height: 48px;
+    width: 145px;
+    border-radius: 30px;
+}
+
+.element-buttom a:hover{
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+
+a.orange:hover{
+    background-color: hsl(31, 77%, 52%);
+}
+
+a.blue:hover{
+    background-color: hsl(184, 100%, 22%);
+}
+a.green:hover{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.orange{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(31, 77%, 52%);
+}
+.blue{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(184, 100%, 22%);
+}
+.green{
+    background-color:  hsl(179, 100%, 13%);
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+@media(max-width:780px){
+    body{
+        height: auto;
+        margin: 100px 0px;
+        align-items: center;
+    }
+    main{
+        width: 330px;
+        flex-direction: column;
+    }    
+    .main-element:first-child{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    
+    .main-element:last-child{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .element-buttom{
+        margin-top: 25px;
+    }
+    .attribution{
+        position: absolute;
+        bottom: -100px;
+    }
+}
