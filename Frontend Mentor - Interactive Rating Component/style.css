@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass';
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main {
+    width: 410px;
+    background-color: hsl(214, 19%, 15%);
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.main-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+}
+
+.main-icon img {
+    width: 16px;
+    height: 16px;
+}
+
+.main-tittle {
+    margin-top: 34px;
+}
+
+.main-tittle h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.main-paragraph {
+    margin-top: 10px;
+}
+
+.main-paragraph p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.main-form {
+    margin-top: 22px;
+}
+
+.form-radio {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -10px;
+}
+
+/*Sumir com o botão do input*/
+.form-radio label input[type="radio"] {
+    display: none;
+}
+
+/*Estilizando o numero que agora vai ser o input*/
+.form-radio label span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*Quando passar o mouse em cima do span, mudar sua cor para parecer que é verdadeiramente o input*/
+.form-radio label span:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(213, 19%, 18%);
+}
+
+/*:checked -> quando o input for selecionado
+  + span porque é o span que agora tá se "passando" por input
+  ou seja, tanto no input quanto no span essa propriedade será inserida*/
+.form-radio label input[type="radio"]:checked+span {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(216, 12%, 8%);
+}
+
+/*Resumo:
+  Primeiro: Suma com o botão do input, para que o número que você quer que seja botão se "torne" o input;
+  Segundo: Estilize o número que agora será o botão, bote um cursor point para convencer ainda mais;
+  Terceiro: Aplique propriedades para mudar a cor quando passa o mouse em cima do span e aplique propriedades tanto no input quanto no span quando forem selecionados :checked.*/
+
+.button {
+    padding-right: 10px;
+}
+
+.button span {
+    margin-top: 30px;
+    padding-top: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: hsl(216, 12%, 8%);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.button span:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+
+section {
+    width: 410px;
+    background-color: hsl(214, 19%, 15%);
+    border-radius: 25px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-img img {
+    display: block;
+    margin-top: 15px;
+    margin-left: -8px;
+}
+
+.section-response {
+    margin-top: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    width: 190px;
+    height: 32px;
+    border-radius: 20px;
+}
+
+.section-response {
+    padding-top: 3px;
+    color: hsla(25, 97%, 53%, 0.582);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.section-thanks {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-thanks h3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 27px;
+}
+
+.section-thanks p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+@media(max-width:500px){
+    main {
+        width: 350px;
+        padding-right: 20px;
+    }
+    .main-tittle {
+        margin-top: 20px;
+    }
+    
+    .main-tittle h1 {
+        font-size: 26px;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+    }
+    .button span {
+        margin-top: 25px;
+    }
+    section{
+        width: 350px;
+    }
+}
