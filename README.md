@@ -14,3 +14,4 @@
 |[Frontend Mentor - 3 Column Preview Card component](https://github.com/carlsgabriel/estudos-Frontend/tree/4e0564a4fbe9e17534b6ade258dc94ad30680a51/Frontend%20Mentor%20-%203%20Column%20preview%20card%20component)| HTML, CSS |
 |[Frontend Mentor - Profile Card Component](https://github.com/carlsgabriel/estudos-Frontend/tree/265caee9c6d5e352bcc9ca31f34dab768b981706/Frontend%20Mentor%20-%20Profile%20Card%20Component)| HTML, CSS |
 |[Frontend Mentor - FAQ Accordion](https://github.com/carlsgabriel/estudos-Frontend/tree/b8b8ee1a7f296c962b0be90a8b0bfc2482e27ea7/Frontend%20Mentor%20-%20FAQ%20Accordion)| HTML, CSS, JavaScript |
+|[Frontend Mentor - Interactive Rating Component](https://github.com/carlsgabriel/estudos-Frontend/tree/314a715a3e65ee66e3a6f9e5b6bdbd4091076606/Frontend%20Mentor%20-%20Interactive%20Rating%20Component)| HTML, CSS, JavaScript |
