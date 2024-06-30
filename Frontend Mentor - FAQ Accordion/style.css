@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+}
+
+body {
+    height: 100vh;
+    background-image: url('assets/images/background-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(275, 100%, 97%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main {
+    width: 600px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 20px 60px hsla(292, 16%, 49%, 30%);
+}
+
+.content-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.content-logo span {
+    display: inline-flex;
+    font-size: 56px;
+    font-weight: 700;
+    color: hsl(292, 42%, 14%);
+    margin-left: 24px;
+}
+
+.content-faq {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.faq-ask {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-ask span {
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+.faq-ask span:hover {
+    color: #AD28EB;
+}
+
+.faq-response {
+    margin-top: 23px;
+}
+
+.hidden {
+    display: none;
+}
+
+.faq-response span {
+    color: hsl(292, 16%, 49%);
+    line-height: 1.5;
+    font-weight: 400;
+    display: inline-flex;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: hsl(275, 100%, 97%);
+    margin: 25px 0px;
+}
+
+.attribution {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+@media(max-width:600px) {
+    body {
+        background-image: url('assets/images/background-pattern-mobile.svg');
+        height: auto;
+        margin: 150px 0;
+    }
+
+    main {
+        width: 350px;
+        padding: 25px;
+        border-radius: 8px;
+    }
+
+    .content-logo img {
+        width: 25px;
+        height: 25px;
+        ;
+    }
+
+    .content-logo span {
+        font-size: 35px;
+    }
+
+    .faq-ask a {
+        padding-right: 30px;
+    }
+
+    .faq-response span {
+        font-size: 15px;
+        padding-right: 10px;
+    }
+    .attribution {
+        position: absolute;
+        top: -150px;
+        bottom: auto;
+    }
+    .attribution a{
+        color: #FFF;
+    }
+}
