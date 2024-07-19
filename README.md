@@ -16,3 +16,4 @@
 |[Frontend Mentor - Social proof section](https://github.com/carlsgabriel/estudos-Frontend/tree/e96e234eaa997e123abf8d1be1ba2a2aaafa44e8/Frontend%20Mentor%20-%20Social%20proof%20section)| HTML, CSS |
 |[Frontend Mentor - FAQ Accordion](https://github.com/carlsgabriel/estudos-Frontend/tree/b8b8ee1a7f296c962b0be90a8b0bfc2482e27ea7/Frontend%20Mentor%20-%20FAQ%20Accordion)| HTML, CSS, JavaScript |
 |[Frontend Mentor - Interactive Rating Component](https://github.com/carlsgabriel/estudos-Frontend/tree/314a715a3e65ee66e3a6f9e5b6bdbd4091076606/Frontend%20Mentor%20-%20Interactive%20Rating%20Component)| HTML, CSS, JavaScript |
+|[Exercício POO - Jogo de Luta](https://github.com/carlsgabriel/estudos-Frontend/tree/fbe878bdcc5087133c31d980989365e465c9526a/Exerc%C3%ADcio%20POO%20-%20Jogo%20de%20Luta)| HTML, CSS, JavaScript |
