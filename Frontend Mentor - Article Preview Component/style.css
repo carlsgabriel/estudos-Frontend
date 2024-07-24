@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope';
+}
+
+main {
+    background-color: #FFF;
+    width: 728px;
+    height: 280px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-top {
+    width: 290px;
+    height: 100%;
+}
+
+.left-top img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.right-bottom {
+    width: 450px;
+    padding: 34px 38px;
+}
+
+.right-bottom h1 {
+    font-size: 20px;
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+
+.right-bottom p {
+    font-size: 13px;
+    color: hsl(214, 17%, 51%);
+    font-weight: 500;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    /*
+    "Pai" de Shared, tem que estar relativo para que shared seja absolute e apareça certinho em cima do botão depois de posicionado.
+    */
+    position: relative;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 39px;
+    height: 39px;
+}
+
+.profile-img img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+}
+
+.text-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+    margin-bottom: 3px;
+}
+
+.text-data {
+    font-size: 13px;
+    font-weight: 500;
+    color: hsl(212, 23%, 69%);
+}
+
+.buttom {
+    width: 32px;
+    height: 32px;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttom:hover {
+    background-color: hsl(217, 19%, 35%);
+}
+
+/*
+Se passar o mouse em cima do botão, a img dentro do botão:
+Faz com que a cor de SVG inverta, ficando branca.
+*/
+.buttom:hover #buttom-icon {
+
+    filter: brightness(0) invert(1);
+}
+
+.shared {
+    background-color: hsl(217, 19%, 35%);
+    width: 250px;
+    border-radius: 10px;
+    height: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /*
+    Absolute para ser posiconado acima do botão.
+    */
+    position: absolute;
+    top: -70px;
+    right: -108px;
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: hsl(212, 23%, 69%);
+    font-size: 13px;
+    box-shadow: 0px 15px 15px hsl(210, 46%, 95%);
+}
+
+/*
+Setinha em baixo do botão.
+*/
+.shared::after {
+    content: '';
+    border: 10px solid hsl(217, 19%, 35%);
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    bottom: -20px;
+}
+
+.shared-icons {
+    display: flex;
+    gap: 15px;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media(max-width: 750px) {
+    main {
+        width: 350px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .left-top {
+        width: 350px;
+    }
+
+    .left-top img {
+        height: 230px;
+        width: 100%;
+        object-position: top;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+
+    .right-bottom {
+        width: 350px;
+        padding: 17px 27px;
+    }
+
+    .right-bottom h1 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .right-bottom p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .profile {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .profile-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .text-name {
+        font-size: 15px;
+    }
+
+    .text-data {
+        font-size: 15px;
+    }
+
+    .buttom {
+        width: 40px;
+        height: 40px;
+
+        /*
+        Para que apareça após o shared cobrir as informações.
+        */
+        z-index: 1;
+    }
+
+    .shared {
+        width: 350px;
+        height: 75px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        top: -15px;
+        right: -27px;
+        justify-content: unset;
+        padding-left: 40px;
+    }
+
+    .shared::after {
+        display: none;
+    }
+
+    .shared-icons {
+        margin-left: 20px;
+    }
+}
