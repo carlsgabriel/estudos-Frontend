@@ -14,6 +14,7 @@
 |[Frontend Mentor - 3 Column Preview Card component](https://github.com/carlsgabriel/estudos-Frontend/tree/4e0564a4fbe9e17534b6ade258dc94ad30680a51/Frontend%20Mentor%20-%203%20Column%20preview%20card%20component)| HTML, CSS |
 |[Frontend Mentor - Profile Card Component](https://github.com/carlsgabriel/estudos-Frontend/tree/265caee9c6d5e352bcc9ca31f34dab768b981706/Frontend%20Mentor%20-%20Profile%20Card%20Component)| HTML, CSS |
 |[Frontend Mentor - Social proof section](https://github.com/carlsgabriel/estudos-Frontend/tree/e96e234eaa997e123abf8d1be1ba2a2aaafa44e8/Frontend%20Mentor%20-%20Social%20proof%20section)| HTML, CSS |
+|[Frontend Mentor - Four card feature section](https://github.com/carlsgabriel/estudos-Frontend/tree/834f50e2ab9e0aeedb7683b77a9d18dc8dfd7d39/Frontend%20Mentor%20-%20Four%20Card%20Feature%20Section)| HTML, CSS |
 |[Frontend Mentor - FAQ Accordion](https://github.com/carlsgabriel/estudos-Frontend/tree/b8b8ee1a7f296c962b0be90a8b0bfc2482e27ea7/Frontend%20Mentor%20-%20FAQ%20Accordion)| HTML, CSS, JavaScript |
 |[Frontend Mentor - Interactive Rating Component](https://github.com/carlsgabriel/estudos-Frontend/tree/314a715a3e65ee66e3a6f9e5b6bdbd4091076606/Frontend%20Mentor%20-%20Interactive%20Rating%20Component)| HTML, CSS, JavaScript |
 |[Frontend Mentor - Article Preview Component](https://github.com/carlsgabriel/estudos-Frontend/tree/901523d887d8317fdc9db6e2501c6906bac89cf5/Frontend%20Mentor%20-%20Article%20Preview%20Component)| HTML, CSS, JavaScript |
