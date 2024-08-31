@@ -19,3 +19,4 @@
 |[Frontend Mentor - Interactive Rating Component](https://github.com/carlsgabriel/estudos-Frontend/tree/314a715a3e65ee66e3a6f9e5b6bdbd4091076606/Frontend%20Mentor%20-%20Interactive%20Rating%20Component)| HTML, CSS, JavaScript |
 |[Frontend Mentor - Article Preview Component](https://github.com/carlsgabriel/estudos-Frontend/tree/901523d887d8317fdc9db6e2501c6906bac89cf5/Frontend%20Mentor%20-%20Article%20Preview%20Component)| HTML, CSS, JavaScript |
 |[Exercício POO - Jogo de Luta](https://github.com/carlsgabriel/estudos-Frontend/tree/fbe878bdcc5087133c31d980989365e465c9526a/Exerc%C3%ADcio%20POO%20-%20Jogo%20de%20Luta)| HTML, CSS, JavaScript |
+|[Battery](https://github.com/carlsgabriel/estudos-Frontend/tree/ceec3e87bd82294966088755d1b8438ddc96bc8f/Battery)| HTML, CSS, JavaScript |
