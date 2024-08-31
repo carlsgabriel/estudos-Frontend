@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(imgs/fundo.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Creepster';
+}
+
+.img-top {
+    width: 500px;
+    height: 500px;
+}
+
+.img-top img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: -100px;
+}
+
+.key {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div[data-key="keyq"] {
+    background-image: url('imgs/bumbo.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #FFF;
+
+}
+
+div[data-key="keyw"] {
+    background-image: url('imgs/tom.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #FFF;
+
+}
+
+div[data-key="keye"] {
+    background-image: url('imgs/chimbal.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+div[data-key="keya"] {
+    background-image: url('imgs/surdobateria.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div[data-key="keys"] {
+    background-image: url('imgs/prato.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+div[data-key="keyd"] {
+    background-image: url('imgs/prato\ de\ conducao.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+div[data-key="keyz"] {
+    background-image: url('imgs/caixas.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #FFF;
+
+}
+
+div[data-key="keyx"] {
+    background-image: url('imgs/baqueta.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+div[data-key="keyc"] {
+    background-image: url('imgs/tambor.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.key.active {
+    border: 5px solid red;
+    color: red;
+}
+
+.composer {
+    width: 260px;
+    margin-top: 20px;
+}
+
+.composer #input {
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding: 10px 15px;
+    font-family: 'Creepster';
+}
+
+#input::placeholder {
+    font-family: 'Creepster';
+    text-align: center;
+}
+
+.composer button {
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'Creepster';
+}
+
+.composer button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
