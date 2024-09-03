@@ -160,3 +160,13 @@ div[data-key="keyc"] {
 .composer button:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+@media(max-width: 500px){
+    .img-top {
+        width: 300px;
+        height: 300px;
+    }
+    .keys {
+        margin-top: -50px;
+    }
+}
