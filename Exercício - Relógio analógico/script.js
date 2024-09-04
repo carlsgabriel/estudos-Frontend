@@ -16,9 +16,9 @@ function atualizarHora() {
     let horaAtual = horarioAtual.getHours();
 
     //Manipular o background do body para que ele mude de acordo com a hora.
-    if(horaAtual > 6 && horaAtual < 12){
+    if(horaAtual >= 6 && horaAtual < 12){
         body.style.background = 'linear-gradient(to bottom,#87CEEB,#B0E0E6)';
-    } else if (horaAtual < 18){
+    } else if (horaAtual >= 12 && horaAtual < 18){
         body.style.background = 'linear-gradient(to bottom, #87CEFA, #FFB6C1, #FF8C00);';
     } else {
         body.style.background = 'linear-gradient(to bottom, #000033, #000000)';
