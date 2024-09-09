@@ -21,3 +21,4 @@
 |[Exercício POO - Jogo de Luta](https://github.com/carlsgabriel/estudos-Frontend/tree/fbe878bdcc5087133c31d980989365e465c9526a/Exerc%C3%ADcio%20POO%20-%20Jogo%20de%20Luta)| HTML, CSS, JavaScript |
 |[Exercício - Bateria](https://github.com/carlsgabriel/estudos-Frontend/tree/de42660a0189fb942eff6b67f6fc0b8aa6d04224/Exerc%C3%ADcio%20-%20Bateria)| HTML, CSS, JavaScript |
 |[Exercício - Relógio analógico](https://github.com/carlsgabriel/estudos-Frontend/tree/main/Exerc%C3%ADcio%20-%20Rel%C3%B3gio%20anal%C3%B3gico)| HTML, CSS, JavaScript |
+|[Exercício -Metereologia](https://github.com/carlsgabriel/estudos-Frontend/tree/193f0f167ac07dbcccb607b49e338ed1f43102af/Exerc%C3%ADcio%20-%20Metereologia)| HTML, CSS, JavaScript |
