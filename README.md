@@ -22,3 +22,4 @@
 |[Exercício - Bateria](https://github.com/carlsgabriel/estudos-Frontend/tree/de42660a0189fb942eff6b67f6fc0b8aa6d04224/Exerc%C3%ADcio%20-%20Bateria)| HTML, CSS, JavaScript |
 |[Exercício - Relógio analógico](https://github.com/carlsgabriel/estudos-Frontend/tree/main/Exerc%C3%ADcio%20-%20Rel%C3%B3gio%20anal%C3%B3gico)| HTML, CSS, JavaScript |
 |[Exercício - Metereologia](https://github.com/carlsgabriel/estudos-Frontend/tree/319363e42b90a4df87938d616f88bd548fea48b8/Exerc%C3%ADcio%20-%20Metereologia)| HTML, CSS, JavaScript |
+|[Exercício - Quiz](https://github.com/carlsgabriel/estudos-Frontend/tree/main/Exerc%C3%ADcio%20-%20Quiz)| HTML, CSS, JavaScript |
